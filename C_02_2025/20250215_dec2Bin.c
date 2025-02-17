@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void decimalToBinary(int n) {
+void decimalToBinary(int n) 
+{
     // Size of an integer in bytes
     int size = sizeof(n) * 8;
     
@@ -15,13 +16,14 @@ void decimalToBinary(int n) {
     printf("\n");
 }
 
-int main() {
+int main() 
+{
     int num;
 
-    printf("Enter a decimal number: ");
+    printf("Enter a Decimal Number: ");
     scanf("%d", &num);
 
-    printf("Binary representation: ");
+    printf("Binary Representation: ");
     decimalToBinary(num);
 
     return 0;
