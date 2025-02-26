@@ -7,6 +7,8 @@ int main()
 display();
 add();
 display();
+add();
+display();
 
 return 0;
 }

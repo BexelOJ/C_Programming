@@ -9,7 +9,7 @@ void add()
 
 void display()
 {
-    printf("Number is %d",var);
+    printf("Number is %d\n",var);
 }
 
 
