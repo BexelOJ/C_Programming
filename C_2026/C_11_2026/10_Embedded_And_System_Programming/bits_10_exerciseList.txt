@@ -1,0 +1,25 @@
+----------------------------------------------------
+10 — Embedded and system programming:
+
+- Set and clear hardware register bits
+- Read a hardware status register
+- Update GPIO configuration bits
+- Set interrupt enable bits
+- Clear interrupt pending bits
+- Configure multiple register fields
+- Implement register read-modify-write
+- Implement flag registers
+- Implement event flags
+- Implement permission flags
+- Implement device capability flags
+- Implement bitmaps for resource allocation
+- Understand volatile register access
+- Understand atomic bit operations
+- Explore Linux kernel bit manipulation APIs
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+----------------------------------------------------
+

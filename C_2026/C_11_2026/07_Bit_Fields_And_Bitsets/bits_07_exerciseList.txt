@@ -1,0 +1,26 @@
+----------------------------------------------------
+07 — C bit fields and bitsets:
+
+- Create a structure with bit fields
+- Declare unsigned bit fields
+- Declare signed bit fields
+- Access and modify bit fields
+- Compare bit fields with bit masking
+- Create a register structure using bit fields
+- Implement a fixed-size bitset
+- Set, clear and toggle bits in a bitset
+- Check bits in a bitset
+- Perform AND between two bitsets
+- Perform OR between two bitsets
+- Perform XOR between two bitsets
+- Find the complement of a bitset
+- Find the union and intersection of bitsets
+- Count set bits in a bitset
+- Find the first available bit in a bitset
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+----------------------------------------------------
+

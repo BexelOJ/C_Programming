@@ -1,0 +1,25 @@
+----------------------------------------------------
+04 — Bit counting and analysis:
+
+- Count the number of set bits
+- Count the number of unset bits
+- Count set bits using Brian Kernighan's algorithm
+- Count set bits using lookup tables
+- Find the position of the first set bit
+- Find the position of the last set bit
+- Find the number of trailing zeros
+- Find the number of leading zeros
+- Check whether a number has exactly one set bit
+- Check whether a number has exactly two set bits
+- Check whether a number has alternating bits
+- Calculate even and odd parity
+- Find the parity of an integer
+- Find the Hamming weight
+- Calculate Hamming distance between two integers
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+----------------------------------------------------
+

@@ -1,0 +1,21 @@
+----------------------------------------------------
+01 — Bitwise operators:
+
+- AND (&)
+- OR (|)
+- XOR (^)
+- NOT (~)
+- Left shift (<<)
+- Right shift (>>)
+- Difference between logical and arithmetic right shift
+- Operator precedence in bitwise expressions
+- Bitwise vs logical operators
+- Signed vs unsigned bitwise operations
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+

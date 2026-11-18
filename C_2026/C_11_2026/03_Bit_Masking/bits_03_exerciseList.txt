@@ -1,0 +1,22 @@
+----------------------------------------------------
+03 — Bit masking:
+
+- Create a bit mask
+- Extract a particular bit
+- Extract multiple consecutive bits
+- Insert a value into a bit field
+- Clear a bit field
+- Update a bit field
+- Extract upper and lower nibbles
+- Extract high and low bytes
+- Combine two 8-bit values into a 16-bit value
+- Combine two 16-bit values into a 32-bit value
+- Extract individual bytes from a 32-bit integer
+- Set and clear register control bits
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+----------------------------------------------------
+

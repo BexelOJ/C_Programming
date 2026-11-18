@@ -1,0 +1,25 @@
+----------------------------------------------------
+08 — Bitmap and bit array:
+
+- Implement a bitmap using an integer
+- Implement a bitmap using an array
+- Set a bitmap position
+- Clear a bitmap position
+- Toggle a bitmap position
+- Check a bitmap position
+- Find the first free bit
+- Find the first occupied bit
+- Find consecutive free bits
+- Allocate a range of bits
+- Release a range of bits
+- Find duplicate numbers using a bitmap
+- Find missing numbers using a bitmap
+- Implement a simple resource allocator using a bitmap
+- Implement a bitmap for tracking memory blocks
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+----------------------------------------------------
+

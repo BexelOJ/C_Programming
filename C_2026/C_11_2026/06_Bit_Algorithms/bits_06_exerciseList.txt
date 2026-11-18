@@ -1,0 +1,25 @@
+----------------------------------------------------
+06 — Bit algorithms:
+
+- Swap two integers using XOR
+- Reverse all bits of an integer
+- Reverse bits in a specified range
+- Rotate bits left
+- Rotate bits right
+- Isolate the rightmost set bit
+- Clear the rightmost set bit
+- Find the rightmost unset bit
+- Swap adjacent bits
+- Swap odd and even bits
+- Reverse the order of bytes
+- Check whether a binary representation is a palindrome
+- Find the complement of a number
+- Generate a bitwise mask for a range
+- Find the position of a single set bit
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+----------------------------------------------------
+

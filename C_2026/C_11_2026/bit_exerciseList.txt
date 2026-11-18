@@ -1,0 +1,225 @@
+. Complete exercise list
+Here is the proposed exercise catalogue. Each item will become an individual C source file.
+----------------------------------------------------
+01 — Bitwise operators:
+
+- AND (&)
+- OR (|)
+- XOR (^)
+- NOT (~)
+- Left shift (<<)
+- Right shift (>>)
+- Difference between logical and arithmetic right shift
+- Operator precedence in bitwise expressions
+- Bitwise vs logical operators
+- Signed vs unsigned bitwise operations
+
+----------------------------------------------------
+02 — Basic bit operations:
+
+- Set a particular bit
+- Clear a particular bit
+- Toggle a particular bit
+- Check whether a bit is set
+- Set multiple bits simultaneously
+- Clear multiple bits simultaneously
+- Toggle multiple bits simultaneously
+- Update a bit to 0 or 1
+- Update a specific bit range
+- Find the least significant set bit
+- Find the most significant set bit
+- Clear all bits except a selected bit
+- Check whether a number is even or odd using bits
+- Check whether a number is a power of two
+- Find the next power of two
+- Find the previous power of two
+
+----------------------------------------------------
+03 — Bit masking:
+
+- Create a bit mask
+- Extract a particular bit
+- Extract multiple consecutive bits
+- Insert a value into a bit field
+- Clear a bit field
+- Update a bit field
+- Extract upper and lower nibbles
+- Extract high and low bytes
+- Combine two 8-bit values into a 16-bit value
+- Combine two 16-bit values into a 32-bit value
+- Extract individual bytes from a 32-bit integer
+- Set and clear register control bits
+
+----------------------------------------------------
+04 — Bit counting and analysis:
+
+- Count the number of set bits
+- Count the number of unset bits
+- Count set bits using Brian Kernighan's algorithm
+- Count set bits using lookup tables
+- Find the position of the first set bit
+- Find the position of the last set bit
+- Find the number of trailing zeros
+- Find the number of leading zeros
+- Check whether a number has exactly one set bit
+- Check whether a number has exactly two set bits
+- Check whether a number has alternating bits
+- Calculate even and odd parity
+- Find the parity of an integer
+- Find the Hamming weight
+- Calculate Hamming distance between two integers
+
+----------------------------------------------------
+05 — Bit arithmetic:
+
+- Add two integers without using +
+- Subtract two integers without using -
+- Multiply an integer by 2 using shifts
+- Divide an integer by 2 using shifts
+- Multiply two integers using bit operations
+- Divide two integers using bit operations
+- Implement increment using bitwise operations
+- Implement decrement using bitwise operations
+- Find absolute value using bitwise operations
+- Find the average of two integers using bitwise operations
+- Find minimum and maximum without comparison operators
+- Detect overflow in bitwise addition
+
+----------------------------------------------------
+06 — Bit algorithms:
+
+- Swap two integers using XOR
+- Reverse all bits of an integer
+- Reverse bits in a specified range
+- Rotate bits left
+- Rotate bits right
+- Isolate the rightmost set bit
+- Clear the rightmost set bit
+- Find the rightmost unset bit
+- Swap adjacent bits
+- Swap odd and even bits
+- Reverse the order of bytes
+- Check whether a binary representation is a palindrome
+- Find the complement of a number
+- Generate a bitwise mask for a range
+- Find the position of a single set bit
+
+----------------------------------------------------
+07 — C bit fields and bitsets:
+
+- Create a structure with bit fields
+- Declare unsigned bit fields
+- Declare signed bit fields
+- Access and modify bit fields
+- Compare bit fields with bit masking
+- Create a register structure using bit fields
+- Implement a fixed-size bitset
+- Set, clear and toggle bits in a bitset
+- Check bits in a bitset
+- Perform AND between two bitsets
+- Perform OR between two bitsets
+- Perform XOR between two bitsets
+- Find the complement of a bitset
+- Find the union and intersection of bitsets
+- Count set bits in a bitset
+- Find the first available bit in a bitset
+
+----------------------------------------------------
+08 — Bitmap and bit array:
+
+- Implement a bitmap using an integer
+- Implement a bitmap using an array
+- Set a bitmap position
+- Clear a bitmap position
+- Toggle a bitmap position
+- Check a bitmap position
+- Find the first free bit
+- Find the first occupied bit
+- Find consecutive free bits
+- Allocate a range of bits
+- Release a range of bits
+- Find duplicate numbers using a bitmap
+- Find missing numbers using a bitmap
+- Implement a simple resource allocator using a bitmap
+- Implement a bitmap for tracking memory blocks
+
+----------------------------------------------------
+09 — Advanced bit manipulation:
+
+- Generate Gray code
+- Convert binary to Gray code
+- Convert Gray code to binary
+- Generate all subsets using bit masks
+- Enumerate all submasks of a number
+- Enumerate all supermasks within a fixed width
+- Find two non-repeating numbers in an array
+- Find one non-repeating number among pairs
+- Find one non-repeating number among triplets
+- Find the missing number using XOR
+- Find the duplicate number using bit operations
+- Find the maximum XOR of two array elements
+- Find the maximum XOR subarray
+- Implement a binary trie for XOR queries
+- Solve subset sum using bitset techniques
+
+----------------------------------------------------
+10 — Embedded and system programming:
+
+- Set and clear hardware register bits
+- Read a hardware status register
+- Update GPIO configuration bits
+- Set interrupt enable bits
+- Clear interrupt pending bits
+- Configure multiple register fields
+- Implement register read-modify-write
+- Implement flag registers
+- Implement event flags
+- Implement permission flags
+- Implement device capability flags
+- Implement bitmaps for resource allocation
+- Understand volatile register access
+- Understand atomic bit operations
+- Explore Linux kernel bit manipulation APIs
+
+----------------------------------------------------
+11 — Interview problems:
+
+- Find the unique element in an array
+- Find two unique elements in an array
+- Find the missing integer in a sequence
+- Find the duplicate integer in an array
+- Find the maximum XOR pair
+- Find the minimum XOR pair
+- Find the single number appearing once
+- Find the single number appearing once when others appear three times
+- Find the number of bits to flip to convert A into B
+- Find the closest integer with the same number of set bits
+- Find the largest power of two less than or equal to N
+- Find the longest sequence of consecutive set bits
+- Find the longest run of alternating bits
+- Find the maximum number obtainable by flipping one bit
+
+----------------------------------------------------
+12 — Optimization and portability:
+
+- Compare bit counting algorithms
+- Compare loop-based and lookup-table approaches
+- Implement a portable bit-count function
+- Use fixed-width integer types
+- Understand integer promotions in bitwise expressions
+- Handle signed right shifts portably
+- Avoid undefined shift operations
+- Understand endianness
+- Implement byte swapping
+- Explore compiler bit-operation built-ins
+- Explore C23 bit manipulation facilities
+
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+
+

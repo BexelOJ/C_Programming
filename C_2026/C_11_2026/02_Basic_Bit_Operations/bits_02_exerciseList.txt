@@ -1,0 +1,26 @@
+----------------------------------------------------
+02 — Basic bit operations:
+
+- Set a particular bit
+- Clear a particular bit
+- Toggle a particular bit
+- Check whether a bit is set
+- Set multiple bits simultaneously
+- Clear multiple bits simultaneously
+- Toggle multiple bits simultaneously
+- Update a bit to 0 or 1
+- Update a specific bit range
+- Find the least significant set bit
+- Find the most significant set bit
+- Clear all bits except a selected bit
+- Check whether a number is even or odd using bits
+- Check whether a number is a power of two
+- Find the next power of two
+- Find the previous power of two
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+----------------------------------------------------
+

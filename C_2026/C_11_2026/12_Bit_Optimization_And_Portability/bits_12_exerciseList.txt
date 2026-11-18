@@ -1,0 +1,21 @@
+----------------------------------------------------
+12 — Optimization and portability:
+
+- Compare bit counting algorithms
+- Compare loop-based and lookup-table approaches
+- Implement a portable bit-count function
+- Use fixed-width integer types
+- Understand integer promotions in bitwise expressions
+- Handle signed right shifts portably
+- Avoid undefined shift operations
+- Understand endianness
+- Implement byte swapping
+- Explore compiler bit-operation built-ins
+- Explore C23 bit manipulation facilities
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+----------------------------------------------------
+

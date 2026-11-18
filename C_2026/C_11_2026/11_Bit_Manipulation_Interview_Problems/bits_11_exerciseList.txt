@@ -1,0 +1,24 @@
+----------------------------------------------------
+11 — Interview problems:
+
+- Find the unique element in an array
+- Find two unique elements in an array
+- Find the missing integer in a sequence
+- Find the duplicate integer in an array
+- Find the maximum XOR pair
+- Find the minimum XOR pair
+- Find the single number appearing once
+- Find the single number appearing once when others appear three times
+- Find the number of bits to flip to convert A into B
+- Find the closest integer with the same number of set bits
+- Find the largest power of two less than or equal to N
+- Find the longest sequence of consecutive set bits
+- Find the longest run of alternating bits
+- Find the maximum number obtainable by flipping one bit
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+----------------------------------------------------
+

@@ -1,0 +1,22 @@
+----------------------------------------------------
+05 — Bit arithmetic:
+
+- Add two integers without using +
+- Subtract two integers without using -
+- Multiply an integer by 2 using shifts
+- Divide an integer by 2 using shifts
+- Multiply two integers using bit operations
+- Divide two integers using bit operations
+- Implement increment using bitwise operations
+- Implement decrement using bitwise operations
+- Find absolute value using bitwise operations
+- Find the average of two integers using bitwise operations
+- Find minimum and maximum without comparison operators
+- Detect overflow in bitwise addition
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+----------------------------------------------------
+

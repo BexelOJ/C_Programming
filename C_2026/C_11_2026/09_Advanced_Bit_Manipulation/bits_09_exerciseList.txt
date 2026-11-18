@@ -1,0 +1,25 @@
+----------------------------------------------------
+09 — Advanced bit manipulation:
+
+- Generate Gray code
+- Convert binary to Gray code
+- Convert Gray code to binary
+- Generate all subsets using bit masks
+- Enumerate all submasks of a number
+- Enumerate all supermasks within a fixed width
+- Find two non-repeating numbers in an array
+- Find one non-repeating number among pairs
+- Find one non-repeating number among triplets
+- Find the missing number using XOR
+- Find the duplicate number using bit operations
+- Find the maximum XOR of two array elements
+- Find the maximum XOR subarray
+- Implement a binary trie for XOR queries
+- Solve subset sum using bitset techniques
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+----------------------------------------------------
+
