@@ -1,0 +1,36 @@
+Types of Pointers in C Programming
+
+There are eight different types of pointers they are:
+
+1.) Null Pointer - null pointer is a pointer that does not point to any memory location. It is often used to indicate that a variable does not point to any valid object.
+2.) Void Pointer (generic pointer) - A void pointer is a pointer that can point to any type of data. It is often used as a generic pointer type in C programming.
+3.) Wild Pointer - A wild pointer is a pointer that has been initialized but does not point to a valid memory location.
+4.) Dangling Pointer - A dangling pointer is a pointer that points to a memory location that is no longer valid. 
+                       This can happen when an object is deleted or goes out of scope, and a pointer to that object is still being used.
+5.) Complex Pointer - 
+
+6.) Near Pointer - 
+7.) Far Pointer - 
+8.) Huge Pointer - 
+9.) Generic Pointer - void Pointer
+
+
+NFC VW NH D
+
+Null Pointer: A pointer that doesn't point to any valid memory location.
+Wild Pointer: A pointer that points to an undefined location.
+Generic Pointer: A pointer of type void *, which can point to any type of data.
+Constant Pointer: A pointer that points to a constant value, whose value cannot be changed through the pointer.
+Pointer to Interger:   // int* ptr
+Pointer to Character:  // char* ptr
+Pointer to Float:      // float* ptr
+Pointer to Double:     // double* ptr
+Pointer to Pointer: A pointer that points to another pointer.
+Pointer to Function: A pointer that points to a function.
+Pointer to Array: A pointer that points to the first element of an array.
+
+A near pointer is a type of pointer in C that is used for memory addressing within a segment. A segment is a block of memory of a fixed size, and a near pointer can only point to memory locations within the same segment. The size of a near pointer is smaller than a far pointer, and as a result, near pointers are more efficient in terms of memory usage. However, near pointers have limited address space and can only access memory within a certain range. This type of pointer is mostly used in real-mode operating systems or in systems with limited memory.
+
+A far pointer is a type of pointer in C that is used for memory addressing across different segments. Unlike near pointers, far pointers have a larger size, which allows them to address memory locations in any segment, regardless of their distance from the current segment. This means that far pointers have a wider address range compared to near pointers, and they are useful in situations where a program needs to access memory outside of its current segment. Far pointers are typically used in systems with a large memory space or in protected mode operating systems, where memory is managed in a more sophisticated manner.
+
+A huge pointer is a type of pointer in C that is used for memory addressing in systems with a large memory space. Huge pointers have an even larger size compared to far pointers, allowing them to address a larger range of memory locations. Huge pointers are used to address memory in the extended memory space, which is a memory area that is separate from the conventional memory space. This type of pointer is typically used in older systems with large amounts of memory, and is becoming less commonly used as modern systems generally have more sophisticated memory management techniques.
