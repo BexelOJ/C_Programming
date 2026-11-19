@@ -1,0 +1,213 @@
+----------------------------------------------------
+1. Common integer format specifiers
+
+Format - Data type - Meaning
+
+%d - int 		  - Signed decimal
+%i - int 		  - Signed decimal
+
+%u - unsigned int - Unsigned decimal
+
+%x - unsigned int - Hexadecimal (lowercase)
+%X - unsigned int - Hexadecimal (uppercase)
+
+%o - unsigned int - Octal
+
+%c - char 		  - Character
+
+%p - void * 	  - Pointer address
+
+----------------------------------------------------
+#include <stdint.h> 
+is a standard C header file introduced in C99
+It provides fixed-width integer types
+
+Data type - Width - Range
+
+int8_t   - 8 bits	 -128 to 127
+uint8_t  - 8 bits	 0 to 255
+
+int16_t  - 16 bits	 -32,768 to 32,767
+uint16_t - 16 bits	 0 to 65,535
+
+int32_t  - 32 bits	 -2³¹ to 2³¹-1
+uint32_t - 32 bits	 0 to 2³²-1
+
+int64_t  - 64 bits	 -2⁶³ to 2⁶³-1
+uint64_t - 64 bits	 0 to 2⁶⁴-1
+
+----------------------------------------------------
+Other important types in <stdint.h>
+
+Type - Purpose
+
+int_least8_t - 
+Smallest supported type with at least 8 bits
+
+uint_least16_t - 
+Unsigned type with at least 16 bits
+
+int_fast32_t - 
+Fast signed type with at least 32 bits
+
+uint_fast64_t - 
+Fast unsigned type with at least 64 bits
+
+intptr_t - 
+Integer type capable of holding a converted 
+object pointer, if provided
+
+uintptr_t - 
+Unsigned integer type capable of holding 
+a converted object pointer, if provided
+
+----------------------------------------------------
+uint32_t ensures a 32-bit unsigned integer type
+
+1U makes the constant unsigned
+
+<< 5 moves the bit to position 5
+
+|= sets that bit without changing the others
+
+----------------------------------------------------
+Important XOR properties:
+- A ^ 0 = A
+- A ^ A = 0
+
+- A ^ 1 
+toggles a single bit when applied to a one-bit value
+
+- XOR is useful for finding unique elements in 
+arrays
+
+----------------------------------------------------
+Binary	uint8_t	int8_t
+00000000	0	0
+00000001	1	1
+01111111	127	127
+10000000	128	-128
+11110000	240	-16
+11111110	254	-2
+11111111	255	-1
+
+The most important takeaway:
+
+The physical bits do not change. 
+The data type determines how those bits are 
+interpreted.
+
+----------------------------------------------------
+11110000 represents -16, not 240, 
+when interpreted as an 8-bit signed integer
+
+The exact same bits can represent 240 
+when interpreted as an unsigned 8-bit integer
+
+The bits are the same; 
+only their interpretation changes 
+based on the data type
+----------------------------------------------------
+More formatting examples
+
+Format	Value		Output
+
+%X		5			5
+%02X	5			05
+%04X	5			0005
+%2X		5			5
+%04X	255			00FF
+%.2f	12.3456		12.35
+
+Remember:
+
+- %2X → minimum 2 characters, pad with spaces
+- %02X → minimum 2 characters, pad with zeros
+
+- %4X → minimum 4 characters, pad with spaces
+- %04X → minimum 4 characters, pad with zeros
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
