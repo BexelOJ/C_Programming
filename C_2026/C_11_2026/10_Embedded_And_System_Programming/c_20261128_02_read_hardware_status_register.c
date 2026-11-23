@@ -39,9 +39,9 @@ Device error detected
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261123_12_detect_overflow_in_addition.c -o o_detect_overflow_in_addition
+c_20261128_02_read_hardware_status_register.c -o o_read_hardware_status_register
 
-./o_detect_overflow_in_addition
+./o_read_hardware_status_register
 
 */
 //--------------------------------------------------

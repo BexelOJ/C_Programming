@@ -47,9 +47,9 @@ After toggling bit 5 : 0
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261123_12_detect_overflow_in_addition.c -o o_detect_overflow_in_addition
+c_20261128_14_atomic_bit_operations.c -o o_atomic_bit_operations
 
-./o_detect_overflow_in_addition
+./o_atomic_bit_operations
 
 */
 //--------------------------------------------------

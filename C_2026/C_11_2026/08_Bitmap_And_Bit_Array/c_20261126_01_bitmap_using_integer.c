@@ -31,9 +31,9 @@ Bitmap: 00000000000000000000000100100100
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261124_15_find_single_set_bit_position.c -o o_find_single_set_bit_position
+c_20261126_01_bitmap_using_integer.c -o o_bitmap_using_integer
 
-./o_find_single_set_bit_position
+./o_bitmap_using_integer
 
 */
 //--------------------------------------------------

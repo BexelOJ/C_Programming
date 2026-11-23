@@ -45,9 +45,9 @@ Duplicate numbers : 2 5 3
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261124_15_find_single_set_bit_position.c -o o_find_single_set_bit_position
+c_20261126_12_find_duplicates_using_bitmap.c -o o_20261126_12_find_duplicates_using_bitmap
 
-./o_find_single_set_bit_position
+./o_20261126_12_find_duplicates_using_bitmap
 
 */
 //--------------------------------------------------

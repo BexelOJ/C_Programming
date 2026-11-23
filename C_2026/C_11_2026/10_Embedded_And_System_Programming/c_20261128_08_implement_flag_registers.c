@@ -66,9 +66,9 @@ After clearing flag 2 : 00100001
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261123_12_detect_overflow_in_addition.c -o o_detect_overflow_in_addition
+c_20261128_08_implement_flag_registers.c -o o_implement_flag_registers
 
-./o_detect_overflow_in_addition
+./o_implement_flag_registers
 
 */
 //--------------------------------------------------

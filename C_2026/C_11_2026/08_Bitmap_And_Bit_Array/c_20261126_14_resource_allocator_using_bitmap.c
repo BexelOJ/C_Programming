@@ -98,9 +98,9 @@ Allocated resources : 1 1 1 0 0 0 0 0
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261124_15_find_single_set_bit_position.c -o o_find_single_set_bit_position
+c_20261126_14_resource_allocator_using_bitmap.c -o o_resource_allocator_using_bitmap
 
-./o_find_single_set_bit_position
+./o_resource_allocator_using_bitmap
 
 */
 //--------------------------------------------------

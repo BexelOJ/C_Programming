@@ -48,9 +48,9 @@ Subset sum exists
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261123_12_detect_overflow_in_addition.c -o o_detect_overflow_in_addition
+c_20261127_15_subset_sum_using_bitset.c -o o_subset_sum_using_bitset
 
-./o_detect_overflow_in_addition
+./o_subset_sum_using_bitset
 
 */
 //--------------------------------------------------

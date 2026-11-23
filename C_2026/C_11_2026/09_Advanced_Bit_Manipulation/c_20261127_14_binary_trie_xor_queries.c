@@ -108,9 +108,9 @@ Maximum XOR result : 31
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261123_12_detect_overflow_in_addition.c -o o_detect_overflow_in_addition
+c_20261127_14_binary_trie_xor_queries.c -o o_binary_trie_xor_queries
 
-./o_detect_overflow_in_addition
+./o_binary_trie_xor_queries
 
 */
 //--------------------------------------------------

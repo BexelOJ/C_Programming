@@ -30,9 +30,9 @@ Gray : 00001111
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261123_12_detect_overflow_in_addition.c -o o_detect_overflow_in_addition
+c_20261127_02_binary_to_gray_code.c -o o_binary_to_gray_code
 
-./o_detect_overflow_in_addition
+./o_binary_to_gray_code
 
 */
 //--------------------------------------------------

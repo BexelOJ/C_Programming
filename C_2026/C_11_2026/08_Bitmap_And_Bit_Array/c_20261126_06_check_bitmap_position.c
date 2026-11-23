@@ -30,9 +30,9 @@ Position 5 is occupied
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261124_15_find_single_set_bit_position.c -o o_find_single_set_bit_position
+c_20261126_06_check_bitmap_position.c -o o_check_bitmap_position
 
-./o_find_single_set_bit_position
+./o_check_bitmap_position
 
 */
 //--------------------------------------------------

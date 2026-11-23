@@ -39,9 +39,9 @@ First free bit : 4
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261124_15_find_single_set_bit_position.c -o o_find_single_set_bit_position
+c_20261126_07_find_first_free_bit.c -o o_find_first_free_bit
 
-./o_find_single_set_bit_position
+./o_find_first_free_bit
 
 */
 //--------------------------------------------------

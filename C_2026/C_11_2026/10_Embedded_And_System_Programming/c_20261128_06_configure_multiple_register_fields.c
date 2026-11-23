@@ -42,9 +42,9 @@ Configuration register: 00110101
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261123_12_detect_overflow_in_addition.c -o o_detect_overflow_in_addition
+c_20261128_06_configure_multiple_register_fields.c -o o_configure_multiple_register_fields
 
-./o_detect_overflow_in_addition
+./o_configure_multiple_register_fields
 
 */
 //--------------------------------------------------

@@ -39,9 +39,9 @@ After clear : 00001001
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261123_12_detect_overflow_in_addition.c -o o_detect_overflow_in_addition
+c_20261128_05_clear_interrupt_pending_bits.c -o o_clear_interrupt_pending_bits
 
-./o_detect_overflow_in_addition
+./o_clear_interrupt_pending_bits
 
 */
 //--------------------------------------------------

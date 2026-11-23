@@ -30,9 +30,9 @@ Bitmap: 00000000000000000000000000100000
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261124_15_find_single_set_bit_position.c -o o_find_single_set_bit_position
+c_20261126_03_set_bitmap_position.c -o o_set_bitmap_position
 
-./o_find_single_set_bit_position
+./o_set_bitmap_position
 
 */
 //--------------------------------------------------

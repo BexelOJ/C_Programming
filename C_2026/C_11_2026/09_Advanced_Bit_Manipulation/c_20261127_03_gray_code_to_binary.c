@@ -40,9 +40,9 @@ Binary : 00001010
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261123_12_detect_overflow_in_addition.c -o o_detect_overflow_in_addition
+c_20261127_03_gray_code_to_binary.c -o o_gray_code_to_binary
 
-./o_detect_overflow_in_addition
+./o_gray_code_to_binary
 
 */
 //--------------------------------------------------

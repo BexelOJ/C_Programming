@@ -53,9 +53,9 @@ Second unique number : 9
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261123_12_detect_overflow_in_addition.c -o o_detect_overflow_in_addition
+c_20261127_07_two_non_repeating_numbers.c -o o_two_non_repeating_numbers
 
-./o_detect_overflow_in_addition
+./o_two_non_repeating_numbers
 
 */
 //--------------------------------------------------

@@ -42,9 +42,9 @@ Bitmap : 00000000000000000000000011110000
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261124_15_find_single_set_bit_position.c -o o_find_single_set_bit_position
+c_20261126_10_allocate_bit_range.c -o o_allocate_bit_range
 
-./o_find_single_set_bit_position
+./o_allocate_bit_range
 
 */
 //--------------------------------------------------

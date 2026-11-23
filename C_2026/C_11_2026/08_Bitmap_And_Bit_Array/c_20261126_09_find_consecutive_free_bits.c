@@ -51,9 +51,9 @@ Three consecutive free bits start at : 4
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261124_15_find_single_set_bit_position.c -o o_find_single_set_bit_position
+c_20261126_09_find_consecutive_free_bits.c -o o_find_consecutive_free_bits
 
-./o_find_single_set_bit_position
+./o_find_consecutive_free_bits
 
 */
 //--------------------------------------------------

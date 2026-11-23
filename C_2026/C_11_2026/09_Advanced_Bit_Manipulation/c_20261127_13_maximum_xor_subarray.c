@@ -115,9 +115,9 @@ Maximum subarray XOR : 15
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261123_12_detect_overflow_in_addition.c -o o_detect_overflow_in_addition
+c_20261127_13_maximum_xor_subarray.c -o o_maximum_xor_subarray
 
-./o_detect_overflow_in_addition
+./o_maximum_xor_subarray
 
 */
 //--------------------------------------------------

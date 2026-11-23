@@ -37,9 +37,9 @@ After clearing bit 3 : 00000000
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261123_12_detect_overflow_in_addition.c -o o_detect_overflow_in_addition
+c_20261128_01_set_clear_hardware_register_bits.c -o o_set_clear_hardware_register_bits
 
-./o_detect_overflow_in_addition
+./o_set_clear_hardware_register_bits
 
 */
 //--------------------------------------------------

@@ -70,9 +70,9 @@ Remaining flags : 0
 compilation and running steps:
 
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-c_20261123_12_detect_overflow_in_addition.c -o o_detect_overflow_in_addition
+c_20261128_09_implement_event_flags.c -o o_implement_event_flags
 
-./o_detect_overflow_in_addition
+./o_implement_event_flags
 
 */
 //--------------------------------------------------
