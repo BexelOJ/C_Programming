@@ -23,4 +23,37 @@
 ----------------------------------------------------
 
 ----------------------------------------------------
+Important concepts to remember:
+
+Concept : Main purpose
+
+Bit fields		 : Store structure members using 
+						  a specified number of bits
+
+std::bitset<N>	 : Manage a fixed number of bits
+
+set()				 : Set a bit to 1
+
+reset() : Clear a bit to 0
+
+flip()  : Toggle a bit
+
+test()  : Check a bit
+
+&		  : Intersection
+
+\|		  : Union
+
+^				: XOR
+
+~				: Complement
+
+count()		: Count set bits
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+----------------------------------------------------
+
 

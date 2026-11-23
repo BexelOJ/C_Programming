@@ -22,4 +22,62 @@
 ----------------------------------------------------
 
 ----------------------------------------------------
+Complexity and application summary
+
+No. Topic : Typical complexity
+
+01	Generate Gray code	: O(2^n)
+02	Binary to Gray			: O(1)
+03	Gray to binary			: O(32)
+04	Generate subsets		: O(n.2^n)
+
+05	Enumerate submasks	: O(2^k), where k is the number of set bits
+06	Enumerate supermasks : O(2^{w-k}), where w is width
+
+07	Two non-repeating numbers			: O(n)
+08	One non-repeating among pairs		: O(n)
+09	One non-repeating among triplets : O(32n)
+10	Missing number using XOR			: O(n)
+
+11	Duplicate using bitmap	 : O(n)
+12	Maximum XOR pair			 : O(32n^2) in this implementation
+13	Maximum XOR subarray		 : O(32n)
+14	Binary trie XOR query	 : O(32) per query
+15	Subset sum using bitset	 : O(n.[S/W]) approximately
+
+------------------------------
+Here, 
+S is the maximum sum represented and 
+W is the machine-word width used internally by the bitset
+
+----------------------------------------------------
+Important concepts for embedded and systems programming
+
+
+Three particularly important topics
+
+------------------------------
+01 Gray code : 
+
+Useful in rotary encoders and position measurement 
+because adjacent Gray-code values differ 
+by only one bit
+
+------------------------------
+02 Binary trie : 
+
+Useful for efficient XOR queries and understanding 
+bitwise tree structures
+
+------------------------------
+03 Subset enumeration : 
+
+Useful for configuration combinations, 
+feature flags, and combinatorial optimization
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+----------------------------------------------------
 

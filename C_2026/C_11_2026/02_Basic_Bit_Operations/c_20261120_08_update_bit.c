@@ -20,10 +20,11 @@ uint32_t update_bit(uint32_t num,
 
 int main(void)
 {
-    uint32_t num = 10;
+    uint32_t num = 11;
 
     printf("Original: %u\n", num);
-    printf("Updated: %u\n", update_bit(num, 0, 1));
+    uint32_t res = update_bit(num, 2, 1);
+    printf("Updated: %u or %X\n", res, res);
 
     return 0;
 }
@@ -33,8 +34,8 @@ int main(void)
 /*
 Output:
 
-Original: 10
-Updated: 11
+Original: 11  // 1011
+Updated: 15 or F
 
 //--------------------------------------------------
 
